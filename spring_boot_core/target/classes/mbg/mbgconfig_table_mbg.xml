@@ -34,7 +34,7 @@
 		<!-- 生成DAO的包名和位置 -->
 		<!-- type=ANNOTATEDMAPPER 或 XMLMAPPER -->
 		<javaClientGenerator type="XMLMAPPER"
-			targetPackage="com.rjpk.core.base.dao.generated" targetProject="../../java">
+			targetPackage="com.rjpk.core.test.dao.generated" targetProject="../../java">
 			<property name="enableSubPackages" value="true" />
 		</javaClientGenerator>
 
